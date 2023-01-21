@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+div#div-logo{
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+img#logo{
+    color:white;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 10px;
+}
+
+nav ul li a{
+    color: white;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+li p#search{
+    color: white;
+    margin-top: px;
+    padding-left: 40px;
+    margin-left: 15px;
+    margin-right: 80px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1.welcome{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 28vh;
+    margin-left: 12vh;
+}
+
+h1.ind{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 36vh;
+    margin-left: 12vh;
+}
+
+p#content{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 46vh;
+    margin-left: 12vh;
+}
+
+button#btn{
+    width: 150px;
+    height: 40px;
+    background-color: #bcbaba70;
+    border-radius: 15px;
+    margin-top: 68vh;
+    margin-left: 22vh;
+}
+
+div#arrows{
+    color: white;
+    margin-left: 90vh;
+    margin-top: 16vh;
+}
+
+div#places1{
+    width: 180px;
+    height: 260px;
+    background-image: url("../img/tour1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 48vh;
+    margin-left: 85vh;
+    display: inline;
+}
+
+div span.name{
+    position: flex;
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+
+div#places2{
+    width: 180px;
+    height: 260px;
+    background-image: url("../img/tour2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 48vh;
+    margin-left: 115vh;
+    display: inline;
+}
+
+div#places3{
+    width: 180px;
+    height: 260px;
+    background-image: url("../img/tour3.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 48vh;
+    margin-left: 145vh;
+    display: inline;
+}
+
+div#places4{
+    width: 180px;
+    height: 260px;
+    background-image: url("../img/tour4.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 48vh;
+    margin-left: 174vh;
+    display: inline;
+}
+
+div h1#float{
+    color: #ffffff70;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 85vh;
+}
+
+div#sec-cont{
+    width: 207.9vh;
+    height: 100vh;
+    background-color: #f5f5f5;
+    display: block;
+    position: relative;
+    display: inline-block;
+}
+
+div#destin1{
+    width: 150px;
+    height: 300px;
+    background-image: url("../img/tour1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 28vh;
+    margin-left: 10vh;
+    display: inline;
+}
+
+div#destin2{
+    width: 250px;
+    height: 400px;
+    background-image: url("../img/tour2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 18vh;
+    margin-left: 35vh;
+    display: inline;
+}
+
+div#destin3{
+    width: 150px;
+    height: 300px;
+    background-image: url("../img/tour3.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 28vh;
+    margin-left: 75vh;
+    display: inline;
+}
+
+div span.destin-name{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+div span p{
+    font-size: 10px;
+}
+
+div#explore{
+    color: rgb(0, 0, 0);
+    margin-left: 120vh;
+    margin-top: 12vh;
+    position: absolute;
+}
+
+div h1.exp-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+
+div#btm-arrows{
+    display: inline;
+    margin-left: 6vh;
+    margin-top: 45vh;
+    background-color: #000000b8;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+}
+
+div#btm-arrows1{
+    display: inline;
+    margin-left: 95vh;
+    margin-top: 45vh;
+    background-color: #000000b8;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+}
+
+button#btm-btn{
+    width: 150px;
+    height: 40px;
+    background-color: #000000cc;
+    color: white;
+    border-radius: 15px;
+    margin-top: 5vh;
+    margin-left: 20vh;
+}
+
+div#bottom{
+    width: 207.5vh;
+    height: 50vh;
+    background-color: #243423;
+    display: relative;
+}
+
+p.line {
+    display: absolute;
+    padding-top: 0;
+    border: 5px solid #0000006b;
+    width: 100%;
+}
+
+h1#center{
+    align-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+div#align{
+    margin: 50px;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+div#thank{
+    display: block;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 12vh;
+}
+
+div#places1:hover, div#places2:hover, div#places3:hover, div#places4:hover{
+    width: 200px;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* div#destin1:hover, div#destin3:hover{
+    width: 170px;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    position: block;
+}
+
+div#destin2:hover{
+    width: 270px;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    position: block;
+} */
