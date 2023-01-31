@@ -3,4 +3,4 @@
 
 Page Link 
 
-https://indian-toor.netlify.app
+https://tourism-landing-page.netlify.app/
